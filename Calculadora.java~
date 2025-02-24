@@ -62,9 +62,7 @@ public class Calculadora {
 
     /**
      * Dibuja la interfaz gráfica de la calculadora utilizando SWT.
-     * Crea un {@link org.eclipse.swt.widgets.Shell} para la ventana,
-     * y añade varios {@link org.eclipse.swt.widgets.Button} para los botones numéricos
-     * y de operaciones, así como un {@link org.eclipse.swt.widgets.Text} para el display de resultados.
+     * Crea el Shell, los botones numéricos y de operación, y el Text para el resultado.
      */
     private void dibujaCalculadora() {
 
